@@ -12,7 +12,7 @@
 //1.- creare una variabile per generare il numero casuale per il giocatore
 //  - andrò ad assegnare un numero randomico alla varibile"giocatore".
 //  - quindi userò la funzione del math.random, come dice l'esercizio dal 1 al 6.
-let x = Math.random();
+let x = Math.floor(Math.random() *6);
 
 console.log(x);
 
